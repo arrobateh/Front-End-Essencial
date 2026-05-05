@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+body{
+    width: 100%;/* width: 100vw;  */
+    height: auto;/* height: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 1rem;
+    background-color: #224B8C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner{
+    width: 100%;
+    max-width: 75rem;
+    margin: auto;
+}
+
+.header {
+  background-color: #fbd801;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 6rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.nav-header {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem 0.3rem 2rem;
+}
+
+.logo {
+  scale: 1;
+  transition:
+    background-color ease-in-out 0.2s,
+    scale ease-in-out 0.3s;
+}
+
+.logo:hover {
+  scale: 1.1;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  max-width: 4rem;
+  border-radius: 50%;
+  box-shadow:
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.conta img {
+  width: 0.85rem;
+}
+
+.nav-header ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-header li {
+  border-radius: 8px;
+  padding: 0.5rem 0.7rem;
+  background-color: #fbd801;
+  box-shadow:
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  scale: 1;
+  transition:
+    background-color ease-in-out 0.2s,
+    scale ease-in-out 0.3s;
+}
+
+.nav-header li:hover {
+  border-radius: 8px;
+  padding: 0.5rem 0.7rem;
+  background-color: goldenrod;
+  box-shadow:
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  scale: 1.1;
+}
+
+.nav-header a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 2rem;
+  height: 1rem;
+  color: #000000;
+}
+
+.nav-header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.Apresentacao{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(255, 255, 255, 0.23),rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.image{
+    padding: 2rem;
+
+}
+.Apresentacao img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.Apresentacao h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-wrap: balance;
+}
+.Apresentacao p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-align:left;
+    text-wrap: balance;
+}
+
+
+.Apresentacao button{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.4rem 4rem;
+    background-color: #fbd801;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow:
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    scale: 1;
+  transition:
+    background-color ease-in-out 0.2s,
+    scale ease-in-out 0.3s;
+}
+.Apresentacao button:hover{
+     display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.4rem 4rem;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow:
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    scale: 1.1;
+}
+
+
+
+
+.espaco{
+    width: 100%;
+    height: 0.5rem;  
+    background-color: aliceblue;
+    border-radius: 8px;
+   
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16/9;
+}
+
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 2.0s ease-in-out;
+}
+.banner img.ativa {
+    opacity: 1;
+    position: relative;
+}
+
+
+.espaco2{
+    width: 100%;
+    height: 9.375rem;  
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    
+}
+/* .espaco2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    display: flex;
+    color: #fbd801  ;
+    justify-content: space-around;
+} */
+.espaco2 img{
+    width: 100%;
+    height:9.375rem;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+.camisas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* overflow: hidden; */
+    justify-content:center;
+    align-items: flex-start;
+    gap: 1.6rem;
+    
+}
+
+.camisa{
+    width: 17rem;
+    height: 25rem;
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.camisa img{
+    width:auto;
+    height: 18rem;
+}
+.camisa p{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.comprar{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.2rem 2rem;
+    background-color: #fbd801;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size:1rem;
+    font-weight: bold;
+    box-shadow:
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    scale: 1;
+  transition:
+    background-color ease-in-out 0.2s,
+    scale ease-in-out 0.3s;
+}
+
+.comprar:hover{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0.2rem 2rem;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size:1rem;
+    font-weight: bold;
+    box-shadow:
+    rgba(0, 0, 0, 0.35) 0px 5px 15px,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    scale: 1.1;
+}
+
+
+
+
+.comprar img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer {
+  background-color: #fbd801;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  max-width: 75rem;
+  padding: 1.5rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-direitos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+}
+
+.footer-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-self: start;
+}
+
+.footer-lista a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+.background {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  position: fixed;
+  background-image: url("https://i.gifer.com/embedded/download/7MDJ.gif");
+  background-position: center;
+  background-size: cover;
+  filter: blur(10px);
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.55;
+  -webkit-mask-image: linear-gradient(black 40%, transparent 80%);
+  mask-image: linear-gradient(black 40%, transparent 80%);
+}
