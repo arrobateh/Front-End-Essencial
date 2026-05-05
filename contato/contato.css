@@ -92,7 +92,7 @@
 }
 
 /* Botao para salvar o cadastro */
-.btnsalvar {
+.btn{
     font-weight: bold;
     font-size: 1.5rem;
     grid-column: span 2;
@@ -101,7 +101,6 @@
     border-radius: 16px;
     background-color: #fbd801;
     color: black;
-    border: none;
     cursor: pointer;
     box-shadow:
             0 3px 8px rgba(0, 0, 0, 0.25),
@@ -113,7 +112,7 @@
 }
 
 /* Efeito no botao */
-.btnsalvar:hover {
+.btn:hover {
     background-color: goldenrod;
     scale: 1.05;
 }
