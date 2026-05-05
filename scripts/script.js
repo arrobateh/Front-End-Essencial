@@ -1,5 +1,5 @@
 //Pega Todos os Elementos da Class Banner que sejam img
-const imagens = document.querySelectorAll('.home-banner img');
+const imagens = document.querySelectorAll(".home-banner img");
 
 window.addEventListener("load", () => {
   if (imagens.length === 0) {
@@ -8,11 +8,11 @@ window.addEventListener("load", () => {
   }
 
   let index = 0;
-  imagens[0].classList.add('ativa');
+  imagens[0].classList.add("ativa");
 
   setInterval(() => {
-    imagens[index].classList.remove('ativa');
+    imagens[index].classList.remove("ativa");
     index = (index + 1) % imagens.length;
-    imagens[index].classList.add('ativa');
+    imagens[index].classList.add("ativa");
   }, 12000);
 });

@@ -1,83 +1,92 @@
 .historia {
-    width: 100%;
-    padding: 2rem 0;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;    
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .historia-bg {
-    width: 100%;
-    padding: 1rem;
-    background: rgba(255, 255, 255, 0.07);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(3.6px);
-    -webkit-backdrop-filter: blur(3.6px);
-    border: 1px solid rgba(255, 255, 255, 0.23),rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  width: 100%;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border:
+    1px solid rgba(255, 255, 255, 0.23),
+    rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .historias-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 .historias-image:hover {
-    transform: scale(1.05) translateY(-5px);
+  transform: scale(1.05) translateY(-5px);
 }
 
 .historias-image {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .historias {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 .historias-texto {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
-    align-items: center;
-    justify-content: start;
-    padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  align-items: center;
+  justify-content: start;
+  padding: 1rem;
 }
 
 .historias-texto p {
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    text-align:left;
-    text-wrap: balance;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+  text-wrap: balance;
 }
 
 .historias-espaco {
-    justify-self: center;
-    width: 98%;
-    height: 0.5rem;  
-    background-color: aliceblue;
-    border-radius: 8px;   
+  justify-self: center;
+  width: 98%;
+  height: 0.5rem;
+  background-color: aliceblue;
+  border-radius: 8px;
 }
 
 .historias-texto-final {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    justify-content: start;
-    padding: 2rem 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: start;
+  padding: 2rem 5rem;
 }
 
 .historias-texto-final p {
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3rem;
-    text-align: justify;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  text-align: justify;
 }
