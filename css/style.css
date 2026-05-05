@@ -9,5 +9,11 @@
 /* Componentes */
 @import "./global/componentes.css";
 
+/* Home */
+@import "./home/home.css";
+
 /* Camisas */
 @import "./camisas/camisas.css";
+
+/* Historia */
+@import "./historia/historia.css";
