@@ -23,3 +23,6 @@
 
 /* Contato */
 @import "./contato/contato.css";
+
+/* bootstrap */
+@import "./global/bootstrap.scss";

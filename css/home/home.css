@@ -194,6 +194,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.home-camisa a {
+  text-decoration: none;
+}
+
 .home-comprar {
   display: flex;
   align-items: center;
