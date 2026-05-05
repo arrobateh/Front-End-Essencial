@@ -15,7 +15,7 @@
   flex-direction: row;
   width: 100%;
   max-width: 75rem;
-  padding: 1.5rem;
+  padding: 1.5rem 0.5rem;
   justify-content: space-around;
   align-items: center;
 }
