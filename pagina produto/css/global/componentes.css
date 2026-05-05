@@ -1,0 +1,47 @@
+.container {
+  max-width: 75rem;
+  padding: 2rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.background {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  position: fixed;
+  background-image: url("https://i.gifer.com/embedded/download/7MDJ.gif");
+  background-position: center;
+  background-size: cover;
+  filter: blur(10px);
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.55;
+  -webkit-mask-image: linear-gradient(black 40%, transparent 80%);
+  mask-image: linear-gradient(black 40%, transparent 80%);
+}
+
+.logo {
+  scale: 1;
+  transition:
+    background-color ease-in-out 0.2s,
+    scale ease-in-out 0.3s;
+}
+
+.logo:hover {
+  scale: 1.1;
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 4rem;
+  border-radius: 50%;
+  box-shadow:
+    0 1px 20px rgba(0, 0, 0, 0.5),
+    0 1px 20px rgba(251, 216, 1, 0.3),
+    inset 0 -4px 4px rgba(0, 0, 0, 0.1);
+}
