@@ -18,5 +18,8 @@
 /* Historia */
 @import "./historia/historia.css";
 
-/*Produtos*/
-@import "./produtos/produtos.css"
+/* Produtos */
+@import "./produtos/produtos.css";
+
+/* Contato */
+@import "./contato/contato.css";
