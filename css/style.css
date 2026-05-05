@@ -17,3 +17,6 @@
 
 /* Historia */
 @import "./historia/historia.css";
+
+/*Produtos*/
+@import "./produtos/produtos.css"
