@@ -177,8 +177,11 @@
   align-items: center;
   flex-direction: column;
   gap: 0.5rem;
+  transition: transform 0.3s ease;
 }
-
+.home-camisa:hover {
+    transform: scale(1.05) translateY(-5px); 
+}
 .home-camisa img {
   width: auto;
   height: 18rem;
