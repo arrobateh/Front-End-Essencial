@@ -15,7 +15,7 @@
   flex-direction: row;
   width: 100%;
   max-width: 75rem;
-  padding: 1.5rem;
+  padding: 1.5rem 0.5rem;
   justify-content: space-around;
   align-items: center;
 }
@@ -36,7 +36,15 @@
 }
 
 .footer-lista a {
-  text-decoration: none;
+  text-decoration: underline goldenrod;
   color: #000000;
   font-size: 1.2rem;
+  scale: 1;
+  transition:
+    background-color ease-in-out 0.2s,
+    scale ease-in-out 0.3s;
+}
+
+.footer-lista a:hover {
+  scale: 1.05;
 }
