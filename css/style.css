@@ -1,5 +1,5 @@
 /* Global */
-@import "./global/global.css";
+@import "./global/reset.css";
 
 /* Header/Footer */
 @import "./global/header.css";
