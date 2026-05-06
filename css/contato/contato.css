@@ -2,8 +2,8 @@
 .boxformulario {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  padding: 2rem;
+  gap: 2rem;
+  padding: 2rem 0;
   width: 100%;
   align-items: center;
 }
@@ -36,7 +36,6 @@
 .texto-cabecalho {
   font-size: 2rem;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 /* Container do conteudo do formulario */

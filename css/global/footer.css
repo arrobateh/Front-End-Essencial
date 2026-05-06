@@ -33,9 +33,14 @@
   flex-direction: column;
   gap: 0.5rem;
   align-self: start;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-lista a {
+  margin: 0;
+  padding: 0;
+  gap: 0;;
   text-decoration: underline goldenrod;
   color: #000000;
   font-size: 1.2rem;
