@@ -89,7 +89,7 @@ Front-End-Essencial/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/Front-End-Essencial.git
+   git clone https://github.com/arrobateh/Front-End-Essencial.git
    ```
 2. Abra o arquivo `index.html` em seu navegador, ou utilize a extensão **Live Server** no VS Code para servir o projeto localmente.
 
