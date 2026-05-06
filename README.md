@@ -12,13 +12,13 @@ O projeto simula uma loja online de camisas da Seleção Brasileira, com página
 
 ## 👥 Equipe
 
-| Nome | GitHub |
-|------|--------|
-| Breno França Magrani | — |
-| Vinicius de Souza Lamas | — |
-| Vitor Ribeiro | — |
-| Yan Martins de Oliveira | — |
-| Wallace Ildefonso | — |
+| Nome | Responsabilidades |
+|------|------------------|
+| Breno França Magrani | HTML e CSS da página Sobre |
+| Vinicius de Souza Lamas | HTML e CSS das páginas Home e História, JavaScript do carrossel e modelo de Header/Footer |
+| Vitor Ribeiro | HTML e CSS das páginas de produtos individuais |
+| Yan Martins de Oliveira | HTML e CSS da página Camisas, modelo de Header/Footer, organização de pastas e modularização dos CSS's |
+| Wallace Ildefonso | HTML e CSS da página Contato e implementação do Bootstrap no projeto |
 
 ---
 
@@ -37,10 +37,10 @@ Front-End-Essencial/
 │   └── logo/               # Logotipo do site
 ├── css/
 │   ├── style.css           # Arquivo principal (importa todos os outros)
-│   ├── global/             # Estilos globais, header, footer e componentes
+│   ├── global/             # Estilos globais: header, footer, componentes e reset anti-Bootstrap
 │   ├── home/               # Estilos da página Home
 │   ├── camisas/            # Estilos da página de Camisas
-│   ├── contato/            # Estilos da página de Contato — inclui estilos do btn (Bootstrap)
+│   ├── contato/            # Estilos da página de Contato
 │   ├── historia/           # Estilos da página de História
 │   ├── sobre/              # Estilos da página Sobre
 │   └── produtos/           # Estilos das páginas de produto individual
@@ -65,7 +65,7 @@ Front-End-Essencial/
 - **HTML5**
 - **CSS3** (com `@import` modularizado)
 - **JavaScript** (ES6+)
-- **Bootstrap 5** (estilos do componente `.btn` integrados diretamente no `contato.css`)
+- **Bootstrap 5** (via CDN na página de Contato, com reset de alta especificidade em `css/global/reset.css` para neutralizar o Reboot)
 
 ---
 
@@ -88,18 +88,7 @@ Front-End-Essencial/
    ```
 2. Abra o arquivo `index.html` em seu navegador, ou utilize a extensão **Live Server** no VS Code para servir o projeto localmente.
 
-> O projeto não possui dependências externas — não é necessário instalar nada via `npm`.
-
----
-
-## 🌿 Branches
-
-| Branch | Descrição |
-|--------|-----------|
-| `main` | Versão estável final |
-| `development` | Branch de integração das features |
-| `feature/organizacao` | Reorganização de pastas e arquivos |
-| `feature/pagina-camisas` | Desenvolvimento das páginas de produto |
+> O projeto não requer instalação de dependências via `npm`. A página de Contato carrega o Bootstrap via CDN, portanto requer conexão com a internet para exibir o botão corretamente.
 
 ---
 
@@ -118,4 +107,4 @@ refactor: reorganizar pastas de assets
 
 ## 🏫 Instituições
 
-Projeto desenvolvido no âmbito da **Residência em TIC/Software** do [Serratec](https://serratec.org/), em parceria com o [SENAI](https://www.senai.portaldaindustria.com.br/) e a [Prefeitura de Petrópolis](https://www.petropolis.rj.gov.br/).
+Projeto desenvolvido no âmbito da **Residência em TIC/Software** do [Serratec](https://serratec.org/), em parceria com o [SENAI](https://www.senai.portaldaindustria.com.br/).
