@@ -1,6 +1,5 @@
-/* Global/Reset */
+/* Global */
 @import "./global/reset.css";
-@import "./global/global.css";
 
 /* Header/Footer */
 @import "./global/header.css";
@@ -9,5 +8,20 @@
 /* Componentes */
 @import "./global/componentes.css";
 
+/* Home */
+@import "./home/home.css";
+
 /* Camisas */
 @import "./camisas/camisas.css";
+
+/* Historia */
+@import "./historia/historia.css";
+
+/* Produtos */
+@import "./produtos/produtos.css";
+
+/* Contato */
+@import "./contato/contato.css";
+
+/* Sobre */
+@import "./sobre/sobre.css";

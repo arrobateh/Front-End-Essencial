@@ -1,0 +1,97 @@
+.produto {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.imagens {
+  display: flex;
+  flex-direction: row;
+  height: 30rem;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 1px -10px 100px 0px inset,
+    rgba(0, 0, 0, 0.17) 0px -10px 1000px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -80px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.img-produto-frente img {
+  width: 100%;
+}
+
+.img-produto-frente {
+  width: 30rem;
+}
+
+.img-produto-costas img {
+  width: 100%;
+}
+
+.img-produto-costas {
+  width: 30rem;
+}
+
+.descricao {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 1px -10px 100px 0px inset,
+    rgba(0, 0, 0, 0.17) 0px -10px 1000px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -80px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: aliceblue;
+  align-items: start;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.produto-preco {
+  color: #fbd801;
+  font-weight: bold;
+}
+
+.botao-compra {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #fbd801;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.25),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+  scale: 1;
+  transition:
+    background-color ease-in-out 0.2s,
+    scale ease-in-out 0.3s;
+}
+
+.botao-compra:hover {
+  background-color: goldenrod;
+  scale: 1.05;
+}

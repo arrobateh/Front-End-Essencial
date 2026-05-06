@@ -1,0 +1,178 @@
+/* Conteiner do formulario */
+.boxformulario {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem 0;
+  width: 100%;
+  align-items: center;
+}
+
+/* Container do cabecalho do formulario */
+.box-contato {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.cabecalho {
+  color: aliceblue;
+  padding: 1.2rem;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 1px -10px 100px 0px inset,
+    rgba(0, 0, 0, 0.17) 0px -10px 1000px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -80px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.texto-cabecalho {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Container do conteudo do formulario */
+.formulario-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 1px -10px 100px 0px inset,
+    rgba(0, 0, 0, 0.17) 0px -10px 1000px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -80px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.formulario {
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  width: 100%;
+  max-width: 100%;
+  padding: 1.5rem;
+}
+
+/* Organizacao do fomulario em colunas */
+.formulario .campo-input:nth-child(1),  /* Nome Completo */
+.formulario .campo-input:nth-child(6),  /* Endereço */
+.formulario .campo-input:nth-child(9) /* E-mail */ {
+  grid-column: span 2;
+}
+
+/* Campos do formulario */
+.campo-input {
+  color: aliceblue;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+  font-size: 110%;
+  max-width: 100%;
+}
+
+.campo-input label {
+  text-transform: uppercase;
+}
+
+.campo-input input {
+  border-radius: 16px;
+  padding: 0.3rem;
+}
+
+.campo-input select {
+  border-radius: 16px;
+  padding: 0.3rem;
+}
+
+.campo-input textarea {
+  font-size: 1.5rem;
+}
+
+/* Classe BTN atualizada para os parâmetros do nosso trabalho */
+.btn {
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  background-color: #fbd801;
+  border: none;
+  color: black;
+  cursor: pointer;
+  box-shadow:
+    0 3px 8px rgba(0, 0, 0, 0.25),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+  scale: 1;
+  transition:
+    background-color ease-in-out 0.2s,
+    scale ease-in-out 0.3s;
+}
+
+/* Efeito no botao */
+.btn:hover {
+  background-color: goldenrod;
+  scale: 1.05;
+}
+
+/* Container da box fale conosco */
+.fale-conosco {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 4rem;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 1px -10px 100px 0px inset,
+    rgba(0, 0, 0, 0.17) 0px -10px 1000px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -80px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.txtfaleconosco {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.logo-fale-conosco {
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+/* Efeito na logo */
+.logo-fale-conosco:hover {
+  background-color: goldenrod;
+  scale: 1.05;
+  box-shadow:
+    0 5px 14px rgba(0, 0, 0, 0.3),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
