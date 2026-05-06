@@ -1,0 +1,13 @@
+/* Global/Reset */
+@import "./global/reset.css";
+@import "./global/global.css";
+
+/* Header/Footer */
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Componentes */
+@import "./global/componentes.css";
+
+/* Camisas */
+@import "./camisas/camisas.css";

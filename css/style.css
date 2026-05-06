@@ -9,5 +9,20 @@
 /* Componentes */
 @import "./global/componentes.css";
 
+/* Home */
+@import "./home/home.css";
+
 /* Camisas */
 @import "./camisas/camisas.css";
+
+/* Historia */
+@import "./historia/historia.css";
+
+/* Produtos */
+@import "./produtos/produtos.css";
+
+/* Contato */
+@import "./contato/contato.css";
+
+/* bootstrap */
+@import "./global/bootstrap.scss";
