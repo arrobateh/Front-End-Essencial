@@ -21,14 +21,15 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.6px);
   -webkit-backdrop-filter: blur(3.6px);
-  box-shadow: rgba(0, 0, 0, 0.17) 1px -10px 100px 0px inset,
-                rgba(0, 0, 0, 0.17) 0px -10px 1000px 0px inset,
-                rgba(0, 0, 0, 0.1) 0px -80px 40px 0px inset,
-                rgba(0, 0, 0, 0.06) 0px 2px 1px,
-                rgba(0, 0, 0, 0.09) 0px 4px 2px,
-                rgba(0, 0, 0, 0.09) 0px 8px 4px,
-                rgba(0, 0, 0, 0.09) 0px 16px 8px,
-                rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 1px -10px 100px 0px inset,
+    rgba(0, 0, 0, 0.17) 0px -10px 1000px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -80px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
 .camisas-lista {
@@ -44,7 +45,18 @@
   flex-direction: row;
   width: 100%;
   height: auto;
-  background-color: aliceblue;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  box-shadow:
+    rgba(0, 0, 0, 0.17) 1px -10px 100px 0px inset,
+    rgba(0, 0, 0, 0.17) 0px -10px 1000px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -80px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
   justify-content: space-around;
 }
 
@@ -67,7 +79,7 @@
 
 .camisa-titulo {
   font-size: 2rem;
-  color: darkgreen;
+  color: aliceblue;
 }
 
 .camisa-texto {
@@ -75,7 +87,7 @@
   flex-direction: column;
   text-align: left;
   font-size: 1.25rem;
-  color: darkgreen;
+  color: aliceblue;
   gap: 0.5rem 0;
 }
 
@@ -86,7 +98,7 @@
   font-weight: bold;
   background-color: transparent;
   border: 2px solid #fbd801;
-  color: darkgreen;
+  color: #fbd801;
   border-radius: 8px;
   scale: 1;
   transition:

@@ -1,5 +1,4 @@
-/* Global/Reset */
-@import "./global/reset.css";
+/* Global */
 @import "./global/global.css";
 
 /* Header/Footer */
@@ -24,5 +23,5 @@
 /* Contato */
 @import "./contato/contato.css";
 
-/* bootstrap */
-@import "./global/bootstrap.scss";
+/* Sobre */
+@import "./sobre/sobre.css";
